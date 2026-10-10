@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "email": "demo@aiem.club",
+      "password": "Demo@12345",
+      "userid": "21bai10001",
+      "name": "Demo User",
+      "position": "Member",
+      "department": "B.Tech CSE (AI & ML)",
+      "bio": "Demo member of the AIEM Club. Interested in machine learning, computer vision and building Flutter apps. Loves hackathons and late-night debugging sessions.",
+      "credit": 35,
+      "profile_pic": "https://i.pravatar.cc/300?img=12",
+      "credits_history": [
+        { "task_name": "Participated in AI Hackathon", "task_date": "2026-10-05", "credits": 20 },
+        { "task_name": "Attended CV Workshop", "task_date": "2026-09-21", "credits": 10 },
+        { "task_name": "Joined Orientation Webinar", "task_date": "2026-09-02", "credits": 5 }
+      ]
+    },
+    {
+      "email": "president@aiem.club",
+      "password": "President@12345",
+      "userid": "20bac10036",
+      "name": "Dhananjay Arne",
+      "position": "President",
+      "department": "B.Tech ECE (AI & Cybernetics)",
+      "bio": "President of the AIEM Club. Works on computer vision and autonomous systems, and leads the club's events, teams and projects.",
+      "credit": 150,
+      "profile_pic": "https://i.pravatar.cc/300?img=8",
+      "credits_history": [
+        { "task_name": "Organised AI Hackathon", "task_date": "2026-10-05", "credits": 50 },
+        { "task_name": "Conducted CV Workshop", "task_date": "2026-09-21", "credits": 40 },
+        { "task_name": "Led Drone Landing Project", "task_date": "2026-08-30", "credits": 60 }
+      ]
+    }
+  ],
+
+  "events": [
+    {
+      "event_name": "AI Hackathon 2026",
+      "event_date_n_time": "15 Nov 2026, 10:00 AM",
+      "isPaid": false,
+      "fees": 0
+    },
+    {
+      "event_name": "Computer Vision Workshop",
+      "event_date_n_time": "22 Nov 2026, 2:00 PM",
+      "isPaid": true,
+      "fees": 99
+    },
+    {
+      "event_name": "Intro to LLMs Webinar",
+      "event_date_n_time": "29 Nov 2026, 6:00 PM",
+      "isPaid": false,
+      "fees": 0
+    }
+  ],
+
+  "youtube_videos": [
+    {
+      "title": "Intro to AI",
+      "videolink": "https://www.youtube.com/watch?v=oV74Najm6Nc",
+      "video_thumb": "https://i.ytimg.com/vi/oV74Najm6Nc/maxresdefault.jpg"
+    },
+    {
+      "title": "ML Basics",
+      "videolink": "https://www.youtube.com/watch?v=VwtC_4t2g5M",
+      "video_thumb": "https://i.ytimg.com/vi/VwtC_4t2g5M/maxresdefault.jpg"
+    },
+    {
+      "title": "Robotics Workshop",
+      "videolink": "https://www.youtube.com/watch?v=5IvQ3fYKnfM",
+      "video_thumb": "https://i.ytimg.com/vi/5IvQ3fYKnfM/maxresdefault.jpg"
+    }
+  ],
+
+  "team_n_project": [
+    {
+      "name": "Drone Landing",
+      "thumb": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400",
+      "isProject": true
+    },
+    {
+      "name": "Team Robocon",
+      "thumb": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400",
+      "isProject": false
+    },
+    {
+      "name": "Smart Attendance",
+      "thumb": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400",
+      "isProject": true
+    }
+  ]
+}
